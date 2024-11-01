@@ -9,24 +9,22 @@
 
 ## Project Setup
 
+### 调试demo项目验证
+
+进入 demo项目
+
 ```sh
-npm install
+cd demo
 ```
 
-### Compile and Hot-Reload for Development
+安装demo项目依赖
+
+```sh
+npm i
+```
+
+启动demo项目
 
 ```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
