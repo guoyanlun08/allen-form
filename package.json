@@ -1,6 +1,6 @@
 {
   "name": "allen-form",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "type": "module",
   "main": "./dist/allen-form.umd.cjs",
   "module": "./dist/allen-form.js",

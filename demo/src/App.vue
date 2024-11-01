@@ -3,7 +3,19 @@
     v-model="values"
     :schema="schema"
     :external-components="externalComponents"
-    :initial-values="{ test: 123 }"
+    :initial-values="{
+      test: 123,
+      experimentConfig: [
+        {
+          containerId: '默认容器',
+          experimentId: ''
+        },
+        {
+          containerId: '显示容器【2】',
+          experimentId: ''
+        }
+      ]
+    }"
   />
   <button @click="handleClick">点我</button>
 </template>

@@ -11,7 +11,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
-    "allen-form": "^0.0.3",
+    "allen-form": "^0.0.5",
     "element-plus": "^2.7.6",
     "vue": "^3.4.29"
   },
